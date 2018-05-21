@@ -13,50 +13,60 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{郭兴}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
- 
+  \email{guoxing@mail.ustc.edu.cn} \textperiodcentered\
+  \phone{(+86) 155-5652-8177} % \textperiodcentered\
+  %\linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+  }
+
+  \vspace{2mm}
+
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\datedsubsection{\textbf{中国科学技术大学}, 合肥, 安徽}{2017年 -- 至今}
+\textit{在读硕士研究生}\ 计算机科学与技术, 导师: 张昱
+\datedsubsection{\textbf{中国科学技术大学}, 合肥, 安徽}{2013年 -- 2017年}
+\textit{学士}\ 计算机科学与技术, 计算机英才班, GPA 3.72, top10\%
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
+
+\section{\faUsers\ 个人项目}
+
+\datedsubsection{\textbf{基于$\mu$C/OS 的无人机操作系统}} {2015年 3月 -- 6月}
 \begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
+  \item 操作系统实验.  https://github.com/reveriel/uCOS
+  \item 负责$\mu$C/OS 到 STM 32 单片机的移植.
 \end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
-\begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+\datedsubsection{\textbf{流水线CPU}}{2015年}
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
+  % \item 组成原理实验.
+  \item FPGA 编程, 实现五段流水线与通过串口的程序加载.
 \end{itemize}
-\end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+\datedsubsection{\textbf{RDMA加速分布式内存对象缓存系统Memcached}}{2015年6月 -- 9月}
 \begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+  \item 负责 Memcached 代码中通信代码的改写.
+  \item 实现了近20倍的加速.
 \end{itemize}
-\end{onehalfspacing}
+
+\datedsubsection{\textbf{基于 LLVM 的 C 语言解释器}}{2016年}
+\begin{itemize}
+  % \item 编译原理实验.
+  \item 使用 Yacc/FLex 实现编译器前端, 后端调用 LLVM 的 JIT 引擎.
+\end{itemize}
+
+\datedsubsection{\textbf{基于 Soot 的 Android 静态分析}}{2017年}
+\begin{itemize}
+  % \item 本科毕业设计.
+  \item 静态分析, 统计 Android 应用的库调用情况.
+\end{itemize}
+
+\datedsubsection{\textbf{基于树莓派的应用}}{2017年10月 -- 2018年4月}
+\begin{itemize}
+  \item Lifelog, 一个定时拍照的便携式摄像机, 智能筛选低质量照片.
+  \item PiCam, 一个自动跟踪的网络摄像头, 在本地运行物体识别与物体跟踪算法.
+\end{itemize}
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
@@ -68,21 +78,23 @@ xxx后端开发
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
+  \item 编程语言: C/C++/Java/Python/Lua/JavaScript, OCaml/Racket > Haskell, Coq, Ruby
+  \item 平台: 2013 年开始使用 Linux/macOS
+  \item 开发: Android 编程, Web 编程. LLVM.
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
+\datedline{优秀学生金奖}{2014年}
+\datedline{第三届国际大学生RDMA编程竞赛(中国赛区)一等奖}{2015 年 11 月}
+\datedline{第五届大学生物联网创新大赛(华东赛区)三等奖}{2018年4月}
 
 \section{\faInfo\ 其他}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
+  \item 技术博客: http://reveriel.com
+  \item GitHub: https://github.com/reveriel
+  \item 语言: 英语 - 熟练(TOEFL 96),
+  \item 担任 2017 编译原理, 2018 程序设计语言基础的助教.
 \end{itemize}
 
 %% Reference
